@@ -42,3 +42,10 @@ button:hover{
     cursor: pointer;
     padding: 5px;
 }
+
+#monMessage{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    color: #414040;
+}

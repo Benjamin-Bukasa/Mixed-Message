@@ -1,4 +1,4 @@
-const btn = document.getElementById('genMsg');
+const genMsg = document.getElementById('genMsg');
 const monMessage = document.getElementById('monMessage');
 let randomMessages=
 [
@@ -12,10 +12,10 @@ let randomMessages=
     "Il n’y a pas de verités moyennes. -Georges Bernanos",
     "Chassez le naturel, il revient au galop. -French proverb",
     " Il vaut mieux prévenir que guérir. -French proverb",
-    "Le temps est un grand maître, dit-on. Le malheur est qui’il tue ses élèves. -Hector Berlioz",
+    "Le temps est un grand maître, dit-on. Le malheur est qui’il tue ses élèves. -Hector Berlioz"
 ];
 
 genMsg.addEventListener('click', function(){
-    let randomMessage = randomMessages[Math.floor(Math.random()*randomMessages.length)]
-    monMessage.innerText("radomMessage");
+    let randomMessage = randomMessages[Math.floor(Math.random() * randomMessages.length)]
+    monMessage.innerText=randomMessage;
 });
