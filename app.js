@@ -15,7 +15,7 @@ let randomMessages=
     "Le temps est un grand maître, dit-on. Le malheur est qui’il tue ses élèves. -Hector Berlioz",
 ];
 
-btn.addEventListener('click', function(){
+genMsg.addEventListener('click', function(){
     let randomMessage = randomMessages[Math.floor(Math.random()*randomMessages.length)]
     monMessage.innerText("radomMessage");
 });
